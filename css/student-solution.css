@@ -1,0 +1,97 @@
+/* ex1------------------------------------------------------ */
+div.ex-1-square{
+    transition: background-color 2s;
+}
+
+div.ex-1-square:hover{
+    background-color: red;
+}
+
+/* ex2------------------------------------------------------- */
+div.ex-2-square{
+    transition: width 3s;
+}
+
+div.ex-2-square:active{
+    width: 100%;
+}
+
+/* ex3------------------------------------------------------ */
+div.ex-3-square{
+    transition: border-radius 2s;
+}
+
+div.ex-3-square:hover{
+    border-radius: 50%;
+}
+
+/* ex4----------------------------------------------------------- */
+div.ex-4-square{
+    transition: opacity 2s;
+}
+
+div.ex-4-square:hover{
+    opacity: 0;
+}
+
+/* ex5------------------------------------------------------- */
+div.ex-5-square{
+    transition: transform 1.5s;
+}
+
+div.ex-5-square:hover{
+    transform: scale(2);
+}
+
+div.ex-5-square:active{
+    transform: scale(.5);
+}
+
+/* ex6-------------------------------------------------------- */
+img.ex-6-img:hover{
+    filter: grayscale(1);
+}
+
+/* ex7------------------------------------------------------- */
+img.ex-7-img{
+    transition: filter 2s;
+}
+
+img.ex-7-img:hover{
+    filter: grayscale(0.5) sepia(0.5);
+}
+
+/* ex8--------------------------------------------------------- */
+img.ex-8-img{
+    transition: filter 2s,
+                border-radius 2s;
+}
+
+img.ex-8-img:hover{
+    filter: grayscale(0.5) sepia(0.5);
+    border-radius: 5%;
+}
+
+/* ex9--------------------------------------------------------- */
+img.ex-9-img{
+    transition: filter 2s,
+                border-radius 2s,
+                transform 2s;
+}
+
+img.ex-9-img:hover{
+    filter: grayscale(0.5) sepia(0.5);
+    border-radius: 5%;
+    transform: scale(1.5);
+}
+
+/* ex10----------------------------------------------------- */
+@keyframes circle{
+    0%{
+        transform: rotate(90°);
+    }
+}
+
+.ex-10-icon{
+    animation: circle 2s linear infinite;
+}
