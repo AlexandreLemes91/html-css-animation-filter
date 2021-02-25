@@ -86,12 +86,21 @@ img.ex-9-img:hover{
 }
 
 /* ex10----------------------------------------------------- */
-@keyframes circle{
+i.ex-10-icon{
+    animation: load 1.5s linear infinite;
+}
+
+@keyframes load{
     0%{
-        transform: rotate(90°);
+        transform: rotate(360deg);
     }
 }
 
-.ex-10-icon{
-    animation: circle 2s linear infinite;
+/* .ex11-------------------------------------------------- */
+i.ex-11-icon{
+    transition:  transform 3s;
+}
+
+i.ex-11-icon:hover{
+
 }
