@@ -202,9 +202,9 @@ a.ex-12-button:hover div.ex-12-bottom-white{
 }
 
 a.ex-13-button:hover div.ex-13-top-white{
-    animation: rotateTopWhite13 4s linear infinite;
+    animation: rotateTopWhite13 3s linear infinite;
 }
 
 a.ex-13-button:hover div.ex-13-bottom-white{
-    animation: rotateBotWhite13 4s linear infinite;
+    animation: rotateBotWhite13 3s linear infinite;
 }
